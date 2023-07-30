@@ -169,10 +169,13 @@ svg {
 }
 
 .btn-teal:hover {
-    background-color: #[[[128488]]];
+    background-color: #001B24;
 }
 
-.btn-border {}
+.btn-border:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
 
 .btn-yellow {
     background-color: var(--color-secondary);
